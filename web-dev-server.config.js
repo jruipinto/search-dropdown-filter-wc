@@ -7,6 +7,9 @@
 import {legacyPlugin} from '@web/dev-server-legacy';
 
 export default {
+  open: true,
+  watch: true,
+  appIndex: 'dev',
   nodeResolve: true,
   preserveSymlinks: true,
   plugins: [
